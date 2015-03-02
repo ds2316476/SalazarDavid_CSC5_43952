@@ -14,8 +14,8 @@ using namespace std;
 
 //Global Constants
 
-const float g=3.2174e1f;//Acceleration in ft/sec^2
-const float CNVFTMT=3.048-1f;//conversion from feet to meters
+const float G=3.2174e1f;//Acceleration in ft/sec^2
+const float CNVFTMT=3.048e-1f;//conversion from feet to meters
 
 //Function Prototypes
 
@@ -39,11 +39,11 @@ int main(int argc, char** argv) {
     //dstnce=1/2.0f*G*time*time;
     //dstnce=G*1/2*time*time;
     
-    dstnce=1/2*G*time*time;
+    dstnce=1.0f/2*G*time*time;
     
     //Output the results
-    cout<<"Distance fallen = "<<dsntce<<"(feet"<<endl;
-    cout<<"Distance fallen = "<<dsntce*CNVFTMT<<"(meters)";
+    cout<<"Distance fallen = "<<dstnce<<"(feet"<<endl;
+    cout<<"Distance fallen = "<<dstnce*CNVFTMT<<"(meters)";
     
     //Exit stage right!
     
