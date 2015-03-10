@@ -6,8 +6,8 @@
  */
 
 //System Libraries
-#include <cstdlib>
 #include <iostream>
+
 using namespace std;
 
 //User Libraries
@@ -29,7 +29,7 @@ int main(int argc, char** argv) {
     
     //Prompt for time
     cout << "Free Fall Problem"<< endl;
-    cout << "Input the time x.xx (seconds" << endl;
+    cout << "Input the time x.xx (seconds)" << endl;
     
     cin >> time;
     
@@ -44,8 +44,8 @@ int main(int argc, char** argv) {
     dstnce=1.0f/2*G*time*time;
     
     //Output the results
-    cout<<"Distance fallen = "<<dstnce<<"(feet"<<endl;
-    cout<<"Distance fallen = "<<dstnce*CNVFTMT<<"(meters)";
+    cout<<"Distance fallen = "<<dstnce<<" (feet)"<<endl;
+    cout<<"Distance fallen = "<<dstnce*CNVFTMT<<" (meters)";
     
     //Exit stage right!
     
