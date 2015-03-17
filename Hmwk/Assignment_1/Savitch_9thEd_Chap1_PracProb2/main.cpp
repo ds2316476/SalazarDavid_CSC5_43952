@@ -3,6 +3,7 @@
  * Author: David Salazar
  * Created on March 16, 2015, 10:12 AM
  * Purpose: Multiplying peas in pods to get a total pea count
+ * PurposeTwo: Add Hello and Goodbye
  */
 
 //System Libraries
@@ -25,24 +26,25 @@ int main(int argc, char** argv) {
     int totPeas; //total peas
     
     //prompt user for number of pods
-    cout<<"press return after entering number.\nEnter the number of pods:\n";
+    cout<<"Hello\n";
+    cout<<"Press return after entering number.\nEnter the number of pods:\n";
     
-    //prompt for pods
     cin>>numPods;
     
     //prompt user for peas in a pod
     cout<<"Enter the number of peas in a pod: \n";
     
-    //prompt for peas in a pod
     cin>>peasPods;
     
-    //math using declared variables
+    //Calculate the results
     totPeas=numPods*peasPods;
     
     //output the results
-    cout<<"if you have "<<numPods<<" pea pods\n";
+    cout<<"If you have "<<numPods<<" pea pods\n";
     cout<<"and "<< peasPods << " peas in each pod, then\nyou have ";
     cout<<totPeas<<" peas in all the pods.\n";
+    
+    cout<<"Goodbye\n";
     
     //Exit stage right!
     
