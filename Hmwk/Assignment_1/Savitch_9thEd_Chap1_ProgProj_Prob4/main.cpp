@@ -2,7 +2,7 @@
  * File:   main.cpp
  * Author: David Salazar
  * Created on March 2, 2015, 9:03 AM
- *      Purpose: Free fall problem from Savitch
+ * Purpose: Free fall problem from Savitch
  */
 
 //System Libraries

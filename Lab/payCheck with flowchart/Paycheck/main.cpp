@@ -1,9 +1,9 @@
 /* 
  * File:   main.cpp
  * Author: David Salazar
- *
  * Created on February 23, 2015, 9:55 AM
- *      Purpose: Input/Process/Output and Flowchart!!!
+ * Purpose: Input/Process/Output and Flowchart!!!
+ * 
  */
 
 //System Libraries
